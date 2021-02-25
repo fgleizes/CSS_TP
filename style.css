@@ -1,0 +1,65 @@
+/* Import de la police Arima Madurai*/
+@import url('https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@300;700&display=swap');
+/* ******************* */
+
+body {
+  font-family: 'Arima Madurai', cursive;
+}
+h1 {
+  text-align: center;
+}
+
+/* Style de la table */
+table {
+  margin: auto;
+  text-align: center;
+  border-collapse: collapse;
+  width: 90%;
+}
+table th, 
+table td {
+  border: 1px solid black;
+  width: calc(100%/8);
+}
+table thead th:not(th:first-child),
+table tbody th {
+  background-color: rgb(229, 229, 229);
+}
+table td {
+  color: #fff;
+}
+table tr {
+  height: 100px;
+}
+table tr:nth-child(3) {
+  height: 50px;
+}
+/* ***************** */
+
+
+/* Définition des couleurs et image de fond */
+.yoga {
+  background-color: #009bcc;
+}
+.biking {
+  background-color: #96c21f;
+}
+.stretching {
+  background-color: #11bcaf;
+}
+.cardio {
+  background-color: #7459ad;
+}
+.self-defense {
+  background-color: #e65686;
+}
+.boxe {
+  background-color: #d9006b;
+}
+.crossfit {
+  background-color: rgb(251, 98, 0);
+}
+.stripes {
+  background-image: url(./images/stripes.png);
+}
+/* **************************************** */
